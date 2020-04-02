@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: #000;
+}
+
+.header{
+    border-top: 5px;
+    border-color: #333;
+    border-top-style: solid;
+}
+
+.header-logo{
+    margin:0.5em auto;
+    width: 50%;
+    max-width: 400px;
+    min-width: 260px;
+}
+
+.header-logo-position{
+    text-align: left;
+}
+
+@media (min-width: 768px){
+    .header-logo-position{
+        text-align: center;
+    }
+}
+
+.NaviBtn{
+    text-align: center;
+    margin: 0.5em auto;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 16px;
+}
+
+.NaviBtn:hover{
+    color: #BBB;
+}
+
+.caption{
+    margin-top:0.5em ;
+}
